@@ -40,6 +40,7 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
+                scroll={false}
                 className="text-gray-500 hover:text-[#0070f3] transition-colors duration-200 font-medium px-2 py-1 rounded-lg hover:bg-gray-100"
               >
                 {item.name}
@@ -63,25 +64,26 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Navigation */}
-        {isOpen && (
-          <div className="md:hidden py-6 border-t border-gray-100 bg-[#f9f5ef] rounded-b-2xl shadow-lg animate-fade-in">
-            <div className="flex flex-col space-y-4">
-              {navigation.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className="text-gray-500 hover:text-[#0070f3] transition-colors duration-200 font-medium px-2 py-2 rounded-lg hover:bg-gray-100"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {item.name}
-                </Link>
-              ))}
-              <Link href="/contact" className="bg-[#FF9900] hover:bg-[#e88a00] text-white font-semibold px-6 py-3 rounded-xl shadow transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#FF9900] focus:ring-offset-2 w-full text-center" onClick={() => setIsOpen(false)}>
-                Submit Manuscript
+        <div
+          className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-[500px] opacity-100 pointer-events-auto py-6' : 'max-h-0 opacity-0 pointer-events-none'
+            } border-t border-gray-100 bg-[#f9f5ef] rounded-b-2xl shadow-lg`}
+        >
+          <div className="flex flex-col space-y-4">
+            {navigation.map((item) => (
+              <Link
+                key={item.name}
+                href={item.href}
+                className="text-gray-500 hover:text-[#0070f3] transition-colors duration-200 font-medium px-2 py-2 rounded-lg hover:bg-gray-100"
+                onClick={() => setIsOpen(false)}
+              >
+                {item.name}
               </Link>
-            </div>
+            ))}
+            <Link href="/contact" className="bg-[#FF9900] hover:bg-[#e88a00] text-white font-semibold px-6 py-3 rounded-xl shadow transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#FF9900] focus:ring-offset-2 w-full text-center" onClick={() => setIsOpen(false)}>
+              Submit Manuscript
+            </Link>
           </div>
-        )}
+        </div>
       </div>
     </nav>
   )

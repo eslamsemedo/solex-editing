@@ -37,7 +37,7 @@ export default function Footer() {
                 <span>+201094412964</span>
               </a>
               <a
-                href="mailto:info@solexediting.com"
+                href="mailto:info@arbor-editing.com"
                 className="flex items-center space-x-2 text-[#22292F] hover:text-[#0070f3] transition-colors"
               >
                 <Mail className="w-4 h-4" />

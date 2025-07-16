@@ -100,10 +100,10 @@ export default function ContactPage() {
                 <div className="flex items-center justify-center space-x-3">
                   <Mail className="w-5 h-5 text-[#FF9900]" />
                   <a
-                    href="mailto:info@solexediting.com"
+                    href="mailto:info@arbor-editing.com"
                     className="text-[#0070f3] hover:text-[#FF9900] transition-colors"
                   >
-                    info@solexediting.com
+                    info@arbor-editing.com
                   </a>
                 </div>
                 <p className="text-[#22292F] text-sm">We typically respond to all inquiries within 24 hours</p>
