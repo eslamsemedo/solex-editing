@@ -48,6 +48,7 @@ export default function ContactPage() {
               fill
               style={{ objectFit: 'cover' }}
               priority
+              sizes="100vw"
               className="pointer-events-none select-none"
             />
             <div className="absolute inset-0 bg-gradient-to-br from-[#FAF8F6]/60 to-white/70" />

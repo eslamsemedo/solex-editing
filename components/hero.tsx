@@ -15,6 +15,7 @@ export default function Hero() {
           fill
           style={{ objectFit: "cover" }}
           priority
+          sizes="100vw"
         />
       </div>
       <div className="absolute inset-0 bg-gradient-to-br from-[#FAF8F6]/70 to-white/80 pointer-events-none z-10" />

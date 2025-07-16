@@ -83,6 +83,7 @@ export default function AboutPage() {
               fill
               style={{ objectFit: "cover" }}
               priority
+              sizes="100vw"
             />
           </div>
           <div className="absolute inset-0 bg-gradient-to-br from-[#FAF8F6]/60 to-white/70 pointer-events-none z-10" />
