@@ -222,7 +222,7 @@ export default function ContactForm() {
               value={formData.email}
               onChange={handleInputChange}
               className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#0070f3] focus:border-transparent bg-[#FAF8F6]"
-              placeholder="your.email@institution.edu"
+              placeholder="info@solexediting.com"
             />
             {errors.email && <p className="text-red-600 text-sm mt-1">{errors.email}</p>}
           </div>
