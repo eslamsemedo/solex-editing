@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "SOLEX EDITING | Academic Editing & Publication Support",
     description:
-      "Expert academic editing, peer review, plagiarism checks, and journal-ready formatting to help your manuscript get accepted",
+      "Expert academic editing, peer review, plagiarism checks, and journal-ready formatting to help your manuscript get accepted.",
     type: "website",
     locale: "en_US",
   },
