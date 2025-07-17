@@ -51,7 +51,7 @@ export default function ContactPage() {
               sizes="100vw"
               className="pointer-events-none select-none"
             />
-            <div className="absolute inset-0 bg-gradient-to-br from-[#FAF8F6]/60 to-white/70" />
+            <div className="absolute inset-0 bg-gradient-to-br from-[#FAF8F6]/55 to-white/65" />
           </div>
           <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
             <div className="max-w-4xl mx-auto text-center">

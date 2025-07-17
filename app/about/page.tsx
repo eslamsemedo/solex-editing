@@ -86,7 +86,7 @@ export default function AboutPage() {
               sizes="100vw"
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-br from-[#FAF8F6]/60 to-white/70 pointer-events-none z-10" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#FAF8F6]/55 to-white/65 pointer-events-none z-10" />
           <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 z-20">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="font-serif text-4xl md:text-5xl font-bold text-[#0070f3] mb-6">About SOLEX EDITING</h1>

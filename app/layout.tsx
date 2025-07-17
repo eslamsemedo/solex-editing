@@ -38,6 +38,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" data-scroll-behavior="smooth" className={`${inter.variable} ${lora.variable}`}>
+      <head>
+        <link rel="icon" href="/hero/logo.png" type="image/png" />
+      </head>
       <body className="font-sans antialiased bg-[#f9f5ef] text-neutral-900 min-h-screen">
         {children}
       </body>

@@ -18,7 +18,7 @@ export default function Hero() {
           sizes="100vw"
         />
       </div>
-      <div className="absolute inset-0 bg-gradient-to-br from-[#FAF8F6]/70 to-white/80 pointer-events-none z-10" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#FAF8F6]/55 to-white/65 pointer-events-none z-10" />
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 z-20">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="font-serif text-5xl md:text-7xl font-bold text-[#0070f3] mb-8 leading-tight tracking-tight animate-fade-in">
