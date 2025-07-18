@@ -60,8 +60,8 @@ function ServiceCard({ service }: { service: any }) {
             {service.audience}
           </div>
         </div>
-        <Link href="/contact" className="bg-[#FF9900] hover:bg-[#e88a00] text-white font-semibold px-6 py-3 rounded-xl shadow transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#FF9900] focus:ring-offset-2">
-          Request This Service
+        <Link href="/contact" className="bg-[#FF9900] hover:bg-[#e88a00] text-white text-center font-semibold px-6 py-3 rounded-xl shadow transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#FF9900] focus:ring-offset-2">
+          Request This Service (0.025$/word)
         </Link>
       </div>
     </div>

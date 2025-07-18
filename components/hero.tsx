@@ -30,7 +30,7 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-14 animate-fade-in">
             <Link href="/contact" className="inline-flex items-center bg-[#FF9900] hover:bg-[#e88a00] text-white font-semibold px-6 py-3 rounded-xl shadow transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#FF9900] focus:ring-offset-2">
-              Submit Manuscript
+              Submit Manuscript (0.025$/word)
               <ArrowRight className="ml-2 w-5 h-5" />
             </Link>
             <Link href="/services" className="bg-[#f9f5ef] hover:bg-gray-50 text-[#0070f3] border border-[#0070f3] font-semibold px-6 py-3 rounded-xl transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#0070f3] focus:ring-offset-2">
