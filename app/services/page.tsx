@@ -74,7 +74,7 @@ export default function ServicesPage() {
       <Navbar />
       <main>
         {/* Hero Section */}
-        <section className="py-16 md:py-24 bg-gradient-to-br from-[#FAF8F6] to-[#f9f5ef] relative overflow-hidden bg-[url('/globe.svg')] bg-no-repeat bg-right-top bg-[length:400px_400px]">
+        <section className="py-16 md:py-24 bg-gradient-to-br from-[#FAF8F6] to-[#f9f5ef] relative overflow-hidden ">
           {/* Hero Background Image */}
           <div className="absolute inset-0 w-full h-full z-0">
             <Image

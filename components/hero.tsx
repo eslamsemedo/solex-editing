@@ -6,7 +6,7 @@ export default function Hero() {
   const trustPoints = ["Subject-Expert Editors", "Confidential & Secure", "Journal-Ready Formatting", "Fast Turnaround"]
 
   return (
-    <section className="py-16 md:py-24 bg-gradient-to-br from-[#FAF8F6] to-[#f9f5ef] relative overflow-hidden bg-[url('/globe.svg')] bg-no-repeat bg-right-top bg-[length:400px_400px]">
+    <section className="py-16 md:py-24 bg-gradient-to-br from-[#FAF8F6] to-[#f9f5ef] relative overflow-hidden ">
       {/* Full-section Hero Image */}
       <div className="absolute inset-0 pointer-events-none select-none z-0">
         <Image
