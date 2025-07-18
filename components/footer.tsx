@@ -28,14 +28,14 @@ export default function Footer() {
               Expert academic editing and publication support to help researchers worldwide publish with clarity and confidence. Bringing your research into the light.
             </p>
             <div className="flex flex-col space-x-4 gap-3 ">
-              {/* <a
-                href="tel:+201094412964"
+              <a
+                href={"https://wa.me/+17869460910"}
                 className="flex items-center space-x-2 text-[#22292F] hover:text-[#0070f3] transition-colors"
               >
 
                 <PhoneCall className="w-4 h-4" />
-                <span>+201094412964</span>
-              </a> */}
+                <span>+1 786 946 0910</span>
+              </a>
               <a
                 href="mailto:info@solexediting.com"
                 className="flex items-center space-x-2 text-[#22292F] hover:text-[#0070f3] transition-colors"
