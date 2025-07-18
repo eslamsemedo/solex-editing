@@ -6,23 +6,23 @@ export interface StatItem {
 
 export const stats: StatItem[] = [
   {
-    value: 592000,
-    label: "Papers Edited",
+    value: 30,
+    label: "Research fields",
     suffix: "+",
   },
   {
-    value: 70,
+    value: 65,
     label: "Served Countries",
     suffix: "+",
   },
   {
-    value: 108000,
-    label: "Authors",
+    value: 25,
+    label: "team",
     suffix: "+",
   },
   {
     value: 18,
-    label: "Years Experienced",
+    label: "Years of Experienced",
     suffix: "+",
   },
 ]

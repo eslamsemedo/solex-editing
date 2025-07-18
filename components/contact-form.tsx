@@ -377,7 +377,7 @@ export default function ContactForm() {
             disabled={isSubmitting}
             className="w-full bg-[#FF9900] hover:bg-[#e88a00] text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#FF9900] focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            {isSubmitting ? "Submitting..." : "Submit Request"}
+            {isSubmitting ? "Submitting..." : "Submit Request (0.025$/word)"}
           </button>
           {errors.submit && <p className="text-red-600 text-sm mt-2">{errors.submit}</p>}
         </div>

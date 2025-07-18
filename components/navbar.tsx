@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-[#f9f5ef] shadow-lg sticky top-0 z-50 border-b border-gray-100">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
@@ -35,7 +35,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-10">
+          <div className="hidden min-[1120px]:flex items-center space-x-10">
             {navigation.map((item) => (
               <Link
                 key={item.name}
@@ -46,13 +46,13 @@ export default function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <Link href="/contact" className="bg-[#FF9900] hover:bg-[#e88a00] text-white font-semibold px-6 py-3 rounded-xl shadow transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#FF9900] focus:ring-offset-2">
-              Submit Manuscript
+            <Link href="/contact" className="bg-[#FF9900] hover:bg-[#e88a00] text-white font-semibold px-4 py-2 md:px-6 md:py-3 rounded-xl shadow transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#FF9900] focus:ring-offset-2 text-sm md:text-base w-full md:w-auto max-w-xs md:max-w-none">
+              Submit Manuscript (0.025$/word)
             </Link>
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="min-[1120px]:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-500 hover:text-[#0070f3] focus:outline-none focus:ring-2 focus:ring-[#0070f3] focus:ring-offset-2 rounded-md p-2"
@@ -65,7 +65,7 @@ export default function Navbar() {
 
         {/* Mobile Navigation */}
         <div
-          className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-[500px] opacity-100 pointer-events-auto py-6' : 'max-h-0 opacity-0 pointer-events-none'
+          className={`min-[1120px]:hidden overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-[500px] opacity-100 pointer-events-auto py-6' : 'max-h-0 opacity-0 pointer-events-none'
             } border-t border-gray-100 bg-[#f9f5ef] rounded-b-2xl shadow-lg`}
         >
           <div className="flex flex-col space-y-4">
@@ -79,8 +79,8 @@ export default function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <Link href="/contact" className="bg-[#FF9900] hover:bg-[#e88a00] text-white font-semibold px-6 py-3 rounded-xl shadow transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#FF9900] focus:ring-offset-2 w-full text-center" onClick={() => setIsOpen(false)}>
-              Submit Manuscript
+            <Link href="/contact" className="bg-[#FF9900] hover:bg-[#e88a00] text-white font-semibold px-4 py-2 md:px-6 md:py-3 rounded-xl shadow transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#FF9900] focus:ring-offset-2 w-full md:w-auto text-center text-sm md:text-base max-w-xs md:max-w-none mx-auto" onClick={() => setIsOpen(false)}>
+              Submit Manuscript (0.025$/word)
             </Link>
           </div>
         </div>

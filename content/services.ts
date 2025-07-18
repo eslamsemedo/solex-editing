@@ -73,28 +73,28 @@ export const editingServices: Service[] = [
 ]
 
 export const publicationServices: Service[] = [
-  {
-    id: "peer-review",
-    name: "Pre-Submission Peer Review",
-    description:
-      "Comprehensive reviewer-style feedback before journal submission. Our experts simulate the peer review process to identify potential issues and strengthen your manuscript.",
-    features: [
-      "Comprehensive manuscript evaluation",
-      "Methodology and analysis review",
-      "Literature review assessment",
-      "Statistical analysis verification",
-      "Recommendation for target journals",
-      "Revision suggestions and priorities",
-    ],
-    deliverables: [
-      "Detailed peer review report",
-      "Scored evaluation rubric",
-      "Revision priority recommendations",
-      "Journal targeting suggestions",
-    ],
-    turnaround: "10-14 days",
-    audience: "Pre-submission manuscripts",
-  },
+  // {
+  //   id: "peer-review",
+  //   name: "Pre-Submission Peer Review",
+  //   description:
+  //     "Comprehensive reviewer-style feedback before journal submission. Our experts simulate the peer review process to identify potential issues and strengthen your manuscript.",
+  //   features: [
+  //     "Comprehensive manuscript evaluation",
+  //     "Methodology and analysis review",
+  //     "Literature review assessment",
+  //     "Statistical analysis verification",
+  //     "Recommendation for target journals",
+  //     "Revision suggestions and priorities",
+  //   ],
+  //   deliverables: [
+  //     "Detailed peer review report",
+  //     "Scored evaluation rubric",
+  //     "Revision priority recommendations",
+  //     "Journal targeting suggestions",
+  //   ],
+  //   turnaround: "10-14 days",
+  //   audience: "Pre-submission manuscripts",
+  // },
   {
     id: "plagiarism-check",
     name: "Plagiarism Checker",
